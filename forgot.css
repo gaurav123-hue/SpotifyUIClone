@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo{
+    height: 80px;
+    margin-top: 30px;
+}
+
+.container{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container #text-1{
+    font-size:50px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+#text-2 p {
+    font-weight: bolder;
+}
+
+.container span{
+    font-size: medium;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    position: static;
+    left: 0;
+    background-color: white;
+    width: 580px;
+    margin-top: 40px;
+}
+#input-text{
+    font-size: small;
+    font-weight: bold;
+}
+
+#email{
+        margin-top: 10px;
+        height: 50px;
+        border-radius: 8px;
+        border-style: solid;
+        border-width: thin;
+        opacity: 0.8;
+    
+    
+}
+
+
+::placeholder{
+    margin-left: 40px;
+
+}
+
+#button{
+    height: 60px;
+    width: 140px;
+    margin-top: 60px;
+    border-radius: 40px;
+    border-style: none;
+    background: rgb(53, 253, 123) ; 
+    color: black;
+    font-size: larger;
+    font-weight: bold;
+    cursor:pointer;
+    margin-bottom: 20px;
+
+}
+
+#button:hover{
+    transform: scale(1.03);
+    background-color: rgb(46, 223, 108) ;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color:rgb(53, 253, 123);
+}

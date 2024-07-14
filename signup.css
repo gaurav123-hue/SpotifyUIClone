@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+  
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+
+    
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo {
+    margin-top: 50px;
+    height: 50px;
+    width: 140px;
+    margin-bottom: 40px;
+}
+#title{
+    font-size: xx-large;
+    font-weight: 600;
+    margin-bottom: 40px;
+    
+}
+
+.container{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: none;
+    border-width: 1px;
+    border-color: grey;
+    margin: 15px 0;
+    height: 50px;
+    width: 500px;
+    border-radius: 25px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    margin-top: 15px;
+    
+}
+
+
+.bar:hover{
+    transform:scale(1.03)
+
+}
+.bar img{
+    height: 20px;
+    width: 20px;
+}
+
+.txt{
+    margin-left: 20px;
+    opacity: 0.8;
+}
+
+#face{
+    background-color: #4174e1;
+}
+
+#google{
+    background-color: white;
+    border-style: solid;
+    margin-bottom: 10px;
+}
+
+#gtxt{
+    color: black;
+    opacity: 0.8;
+}
+
+#linee{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#or{
+    
+        width: 100%; 
+        text-align: center; 
+        border-bottom: 1px solid #000; 
+        line-height: 0.1em;
+        margin: 10px 0 20px; 
+        opacity: 0.5;
+      
+}
+
+#or span{
+    
+        background:#fff; 
+        padding:0 10px; 
+    }
+
+    #sign{
+        font-size: large;
+        font-weight: bolder;
+    }
+
+.input{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: static;
+    left: 0;
+}
+
+.container-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-top: 20px;
+    background-color: white;
+    height:auto;
+    width: 500px;
+}
+
+.container #input-text{
+    font-size: small;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+
+#email{
+    height: 50px;
+    border-radius: 8px;
+    border-style: solid;
+    border-width: thin;
+    opacity: 0.8;
+}
+
+
+#date{
+    cursor: pointer;
+}
+#email:hover{
+    opacity: 1;
+    border-width: 1.5px;
+    font-size: x-large;
+}
+
+::placeholder{
+    padding-left: 10px;
+    font-size: medium;
+
+
+}
+
+#appear{
+    margin-top: 5px;
+    font-size: small;
+    opacity: 1;
+}
+
+
+.radioo{
+    font-size: small;
+    cursor: pointer;
+    margin-top: 8px;
+    display: flex;
+    margin-left: 15px;
+}
+
+.radioo label{
+    margin-left: 5px;
+    margin-right: 15px;
+}
+
+.check{
+    margin-top: 25px;
+    margin-left: 15px;
+}
+
+#checkbox{
+    cursor: pointer;
+    color: green;
+    height: 15px;
+    width: 15px;
+    margin-right: 5px;
+}
+
+
+#tnc{
+    margin-top: 30px;
+    font-size: x-small;
+}
+#tncc{
+    margin-top: 15px;
+    font-size:x-small;
+}
+#tnccc{
+    margin-top: 2px;
+    font-size: x-small;
+    margin-bottom: 30px;
+}
+
+#button{
+    height: 60px;
+    width: 150px;
+    border-radius: 30px;
+
+    border-style: none;
+    background-color: rgb(53, 253, 123) ; ;
+    opacity: 1;
+    color: black;
+    font-size: larger;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+#button:hover{
+    transform: scale(1.03);
+    background-color: rgb(46, 223, 108) ;
+}
+
+#input-2{
+    font-size: medium;
+    font-weight: bold;
+    margin-bottom: 100px;
+}
+
+
+#input-2 a{
+    text-decoration: none;
+    color: rgb(0, 0, 0) ;
+
+}
+
+#input-2 a:hover{
+    color: rgb(53, 253, 123) ; 
+}
